@@ -1,4 +1,4 @@
 package com.ohgiraffers.exception.charcheck;
 
-public class CharCheckException {
+public class CharCheckException extends Exception{
 }
