@@ -7,6 +7,9 @@ public class Friend {
     public Friend() {
     }
 
+    public Friend(String name, int age) {
+    }
+
     public String getName() {
         return name;
     }
