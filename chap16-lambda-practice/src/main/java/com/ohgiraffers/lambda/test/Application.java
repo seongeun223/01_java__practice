@@ -47,9 +47,8 @@ public class Application {
     }
 
     private void test4() {
-//        IntToDoubleFunction intToDoubleFunction = () -> double;#applyAsDouble(int value)
 //        Function<Integer, String> function = (str) -> Integer.parseInt(str);
-//        String strValue = "12345";
+
         Function<Integer, String> intConsumer = (num) -> "입력하신 원화의 달러는 " + (double) num /1300 + "$입니다.";
         System.out.println(intConsumer.apply(3000));
 }

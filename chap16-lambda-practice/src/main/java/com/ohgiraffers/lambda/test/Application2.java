@@ -84,13 +84,14 @@ public class Application2 {
         }
 
         System.out.println("lotto = " + lotto);
+
     }
     private void test3() {
 
         Consumer<Integer> calc = won -> {
             double rate = 1300;
             double dollar = won / rate;
-            System.out.println();
+            System.out.println("￦" + won + " =>  ＄ " + dollar);
         };
         calc.accept(3000);
 
@@ -110,7 +111,7 @@ public class Application2 {
         double dollar = won / rate;
 
         // 출력
-        System.out.println();
+        System.out.println("￦" + won + " =>  ＄ " + dollar);
     }
 
     private void test4() {
