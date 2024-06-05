@@ -2,7 +2,7 @@ package com.ohgiraffers.hw1.model.comparator;
 
 import java.util.Comparator;
 
-public class AssCategory implements Comparator<BookDTO> {
+public class AssCategory<BookDTO> implements Comparator<BookDTO> {
     @Override
     public int compare(BookDTO o1, BookDTO o2) {
         int result = 0;
@@ -12,5 +12,9 @@ public class AssCategory implements Comparator<BookDTO> {
             result = -1;
         }
         return result;
+    }
+
+    public void getCategory() {
+
     }
 }
